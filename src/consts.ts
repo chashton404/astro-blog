@@ -15,8 +15,8 @@ export interface DateFormat {
 }
 
 // Site-wide configuration.
-export const SITE_TITLE = "Chase's Corner of the Internet";
-export const SITE_DESCRIPTION = "A small, plain blog built with Astro.";
+export const SITE_TITLE = "Chase's Corner";
+export const SITE_DESCRIPTION = "A small, plain blog";
 export const SITE_URL = "https://blog.chaseashton.click";
 export const SITE_LANG = "en";
 
@@ -26,7 +26,7 @@ export const DATE_FORMAT: DateFormat = {
   template: "{day} {month}, {year}",
 };
 
-export const SITE_FAVICON = "/favicon.svg";
+export const SITE_FAVICON = "/favicon.png";
 // Optional stylesheet in public/, e.g. "/custom.css".
 export const CUSTOM_STYLESHEET: string | undefined = undefined;
 
@@ -37,9 +37,5 @@ export const NAV_ITEMS: LinkItem[] = [
   { label: "Blog", href: "/blog/" },
 ];
 export const FOOTER_ITEMS: FooterItem[] = [
-  { label: "Made with" },
-  {
-    label: "Astro ʕ•ᴥ•ʔ Bear",
-    href: "https://github.com/harleyjwilson/astro-bearblog",
-  },
+  { label: "Made with care. This is a website upon which I do not plan on using AI. The code and writing will all be done by me, Chase." },
 ];
